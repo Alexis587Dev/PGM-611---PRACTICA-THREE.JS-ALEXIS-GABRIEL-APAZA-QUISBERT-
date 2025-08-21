@@ -48,7 +48,7 @@ escena.add(pyramid);
 function animacion() {
     requestAnimationFrame(animacion);
     //rotacion piramide
-    pyramid.rotation.y += 0.04; //se mueve con un periodo de 0.01
+    pyramid.rotation.y += 0.04; //se mueve con un periodo de 0.04
     pyramid.rotation.z += 0.02;
     //rotacion esfera
     sphere.rotation.z += 0.01;
